@@ -14,6 +14,7 @@ public class Kata {
             result = result.substring(0, result.length()-1);
             result = result.substring(1);
             System.out.println("Hello!");
+            System.out.println("Yes");
         }
         return result;
     }
