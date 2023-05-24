@@ -6,5 +6,6 @@ public class Radio implements ElectricityConsumer{
     @Override
     public void electricityOn(Object sender) {
         playMusic();
+        System.out.println("!!g");
     }
 }

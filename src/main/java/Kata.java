@@ -13,6 +13,7 @@ public class Kata {
             result = result + "," + array[i] + ",";
             result = result.substring(0, result.length()-1);
             result = result.substring(1);
+            System.out.println("Hello!");
         }
         return result;
     }
