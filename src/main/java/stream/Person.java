@@ -28,6 +28,7 @@ public class Person {
 
     @Override
     public String toString() {
+        System.out.println("Hi!!");
         return String.format("%s - %d", this.getName(), this.getAge());
     }
 }
